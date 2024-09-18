@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Feedback</title>
+  <style>
+  body{
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    height: 100vh;
+  }
+     .artwrap{
+ background-color: transparent;
+ padding: 15px;
+ margin-top: 50px;
+ margin-bottom: 20px;
+ border-radius:8px;
+ box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(10px);
+ width: 83%;
+ height: 62vh;
+ text-align: center;
+ justify-content: center;
+ }
+ /* General styling */
+
+/* h1 styling */
+.artwrap h1 {
+ color: black;
+ font-size: 2.5rem;
+ margin-bottom: 25px;
+ text-shadow: 0px 6px 27px #fff;
+}
+.meee{
+text-shadow: 0px 7px 29px #bb86fc;
+}
+/* Input fields styling */
+.artwrap input.input1,
+.artwrap textarea.input2 {
+ width: 90%;
+ padding: 10px;
+ margin: 10px 0;
+ background-color: transparent;
+ border: none;
+ border-bottom: 1.5px solid black;
+ color: #ffffff;
+ font-size: 1rem;
+}
+
+.artwrap input.input1:focus,
+.artwrap textarea.input2:focus {
+ outline: none;
+ border-bottom: 1.5px solid #000000;
+}
+
+/* Button styling */
+.artwrap button.input3 {
+ background-color: black;
+ color: #ffff;
+ border: none;
+ padding: 10px 20px;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 1.1rem;
+ transition: background-color 0.3s ease;
+ box-shadow: 0 0 20px #fff;
+ width:100%;
+ margin-top: 20px;
+ transition: .3s ease;
+}
+
+.artwrap button.input3:hover {
+ background-color: white;
+ box-shadow: 0 0 20px white;
+ transform: scale(0.8);
+ transition: .3s ease;
+}
+
+
+.artwrap label {
+ display: block;
+ margin-bottom: 15px;
+ color:black;
+ color:black;
+ font-size: 1rem;
+}
+
+ .input3:hover{
+ color: #000000;
+ transition: .3s ease;
+ }
+  </style>
+</head>
+<body>
+  <div class="artwrap" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="80">
+<h2>Music Player Feedback</h2>
+<form action="https://formspree.io/f/xjkbzvql"
+ method="POST">
+ <label>
+ Your email:
+ <input type="email" name="email" class="input1" required>
+ </label>
+ <label class="input2">
+ Message:
+ <textarea name="message" required class="input2"></textarea>
+ </label>
+ <button type="submit" class="input3 shadow block">Send</button>
+</form>
+<p align="center" style="color:#aaa;">yourname@gmail.com</p>
+</div>
+</body>
+</html>

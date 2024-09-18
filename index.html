@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="Music Player , Ahmadr , AhmadR Vercel , 01000001r">
+   <meta name="author" content="AhmadR">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="slider-container" id="slider-container"> 
+  <!-- Player 1 -->
+  <div class="player-container" data-index="0">
+    <div class="music-info">
+      <div class="cover-con">
+        <img src="yuuhi.jpg" class="cover album-cover" data-cover="yuuhi.jpg">
+      </div>
+      <h3 class="song-title">Yuuhi Wo Miteiruka?</h3>
+      <p class="maker">JKT48</p>
+    </div>
+    <div class="progress-container">
+      <input type="range" class="progress-bar" min="0" max="100" value="0">
+      <div class="time-info">
+        <span class="current-time">00:00</span> / <span class="duration">00:00</span>
+      </div>
+      <audio class="audio-player" src="JKT48 - Yuuhi Wo Miteiruka (Apakah Kau Melihat Mentari Senja) .mp3"></audio>
+      <div class="controls">
+        <button class="control-btn prev"><i class="fas fa-ellipsis-v"></i></button>
+        <button class="control-btn skip-back"><i class="fas fa-backward"></i></button>
+        <button class="control-btn play-pause"><i class="fas fa-play"></i></button>
+        <button class="control-btn skip-forward"><i class="fas fa-forward"></i></button>
+        <button class="control-btn repeat"><i class="fas fa-redo"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Player 2 -->
+  <div class="player-container" data-index="1">
+    <div class="music-info">
+      <div class="cover-con">
+        <img src="futari.jpg" class="cover album-cover" data-cover="futari.jpg">
+      </div>
+      <h3 class="song-title">Futari Nori No Jitensha</h3>
+      <p class="maker">JKT48</p>
+    </div>
+    <div class="progress-container">
+      <input type="range" class="progress-bar" min="0" max="100" value="0">
+      <div class="time-info">
+        <span class="current-time">00:00</span> / <span class="duration">00:00</span>
+      </div>
+      <audio class="audio-player" src="JKT48 - Futari Nori no Jitensha (Bersepeda Berdua).mp3"></audio>
+      <div class="controls">
+        <button class="control-btn prev"><i class="fas fa-ellipsis-v"></i></button>
+        <button class="control-btn skip-back"><i class="fas fa-backward"></i></button>
+        <button class="control-btn play-pause"><i class="fas fa-play"></i></button>
+        <button class="control-btn skip-forward"><i class="fas fa-forward"></i></button>
+        <button class="control-btn repeat"><i class="fas fa-redo"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Player 3 -->
+  <div class="player-container" data-index="2">
+    <div class="music-info">
+      <div class="cover-con">
+        <img src="heavy.jpg" class="cover album-cover" data-cover="heavy.jpg">
+      </div>
+      <h3 class="song-title">Heavy Rotation</h3>
+      <p class="maker">JKT48</p>
+    </div>
+    <div class="progress-container">
+      <input type="range" class="progress-bar" min="0" max="100" value="0">
+      <div class="time-info">
+        <span class="current-time">00:00</span> / <span class="duration">00:00</span>
+      </div>
+      <audio class="audio-player" src="JKT48 - Heavy Rotation.mp3"></audio>
+      <div class="controls">
+        <button class="control-btn prev"><i class="fas fa-ellipsis-v"></i></button>
+        <button class="control-btn skip-back"><i class="fas fa-backward"></i></button>
+        <button class="control-btn play-pause"><i class="fas fa-play"></i></button>
+        <button class="control-btn skip-forward"><i class="fas fa-forward"></i></button>
+        <button class="control-btn repeat"><i class="fas fa-redo"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Player 4 -->
+  <div class="player-container" data-index="3">
+    <div class="music-info">
+      <div class="cover-con">
+        <img src="river.jpg" class="cover album-cover" data-cover="river.jpg">
+      </div>
+      <h3 class="song-title">River</h3>
+      <p class="maker">JKT48</p>
+    </div>
+    <div class="progress-container">
+      <input type="range" class="progress-bar" min="0" max="100" value="0">
+      <div class="time-info">
+        <span class="current-time">00:00</span> / <span class="duration">00:00</span>
+      </div>
+      <audio class="audio-player" src="JKT48 - River.mp3"></audio>
+      <div class="controls">
+        <button class="control-btn prev"><i class="fas fa-ellipsis-v"></i></button>
+        <button class="control-btn skip-back"><i class="fas fa-backward"></i></button>
+        <button class="control-btn play-pause"><i class="fas fa-play"></i></button>
+        <button class="control-btn skip-forward"><i class="fas fa-forward"></i></button>
+        <button class="control-btn repeat"><i class="fas fa-redo"></i></button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Player 5 -->
+  <div class="player-container" data-index="4">
+    <div class="music-info">
+      <div class="cover-con">
+        <img src="JKT48BELIEVE.jpg" class="cover album-cover" data-cover="JKT48BELIEVE.jpg">
+      </div>
+      <h3 class="song-title">Tooku Ni Itemo</h3>
+      <p class="maker">JKT48</p>
+    </div>
+    <div class="progress-container">
+      <input type="range" class="progress-bar" min="0" max="100" value="0">
+      <div class="time-info">
+        <span class="current-time">00:00</span> / <span class="duration">00:00</span>
+      </div>
+      <audio class="audio-player" src="JKT48 - Di Tempat Yang Jauh Pun - (Tooku Ni Ite Mo).mp3"></audio>
+      <div class="controls">
+        <button class="control-btn prev"><i class="fas fa-ellipsis-v"></i></button>
+        <button class="control-btn skip-back"><i class="fas fa-backward"></i></button>
+        <button class="control-btn play-pause"><i class="fas fa-play"></i></button>
+        <button class="control-btn skip-forward"><i class="fas fa-forward"></i></button>
+        <button class="control-btn repeat"><i class="fas fa-redo"></i></button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="player-container" data-index="4">
+    <div class="music-info">
+      <div class="cover-con">
+        <img src="boku.jpeg" class="cover album-cover" data-cover="boku.jpeg">
+      </div>
+      <h3 class="song-title">Boku no Taiyo</h3>
+      <p class="maker">JKT48</p>
+    </div>
+    <div class="progress-container">
+      <input type="range" class="progress-bar" min="0" max="100" value="0">
+      <div class="time-info">
+        <span class="current-time">00:00</span> / <span class="duration">00:00</span>
+      </div>
+      <audio class="audio-player" src="JKT48 - Boku No Taiyou (Matahariku).mp3"></audio>
+      <div class="controls">
+        <button class="control-btn prev"><i class="fas fa-ellipsis-v"></i></button>
+        <button class="control-btn skip-back"><i class="fas fa-backward"></i></button>
+        <button class="control-btn play-pause"><i class="fas fa-play"></i></button>
+        <button class="control-btn skip-forward"><i class="fas fa-forward"></i></button>
+        <button class="control-btn repeat"><i class="fas fa-redo"></i></button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="player-container" data-index="4">
+    <div class="music-info">
+      <div class="cover-con">
+        <img src="suzukake.jpeg" class="cover album-cover" data-cover="suzukake.jpeg">
+      </div>
+      <h3 class="song-title">Suzukake Nancharaa</h3>
+      <p class="maker">JKT48</p>
+    </div>
+    <div class="progress-container">
+      <input type="range" class="progress-bar" min="0" max="100" value="0">
+      <div class="time-info">
+        <span class="current-time">00:00</span> / <span class="duration">00:00</span>
+      </div>
+      <audio class="audio-player" src="JKT48 - Kesimpulan Yang Membuatku Malu Setelah Beberapa Hari Berfikir Akan Berubah Seperti Apa Hubungan Kita Jika Di jalan Penuh Pohon Rindang Kukatakan “Indahnya Senyum Manismu Dalam Mimpiku„.mp3"></audio>
+      <div class="controls">
+        <button class="control-btn prev"><i class="fas fa-ellipsis-v"></i></button>
+        <button class="control-btn skip-back"><i class="fas fa-backward"></i></button>
+        <button class="control-btn play-pause"><i class="fas fa-play"></i></button>
+        <button class="control-btn skip-forward"><i class="fas fa-forward"></i></button>
+        <button class="control-btn repeat"><i class="fas fa-redo"></i></button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="player-container" data-index="4">
+    <div class="music-info">
+      <div class="cover-con">
+        <img src="futari.jpg" class="cover album-cover" data-cover="futari.jpg">
+      </div>
+      <h3 class="song-title">Boku no Sakura</h3>
+      <p class="maker">JKT48</p>
+    </div>
+    <div class="progress-container">
+      <input type="range" class="progress-bar" min="0" max="100" value="0">
+      <div class="time-info">
+        <span class="current-time">00:00</span> / <span class="duration">00:00</span>
+      </div>
+      <audio class="audio-player" src="JKT48 - Boku No Sakura (Bunga Sakuraku).mp3"></audio>
+      <div class="controls">
+        <button class="control-btn prev"><i class="fas fa-ellipsis-v"></i></button>
+        <button class="control-btn skip-back"><i class="fas fa-backward"></i></button>
+        <button class="control-btn play-pause"><i class="fas fa-play"></i></button>
+        <button class="control-btn skip-forward"><i class="fas fa-forward"></i></button>
+        <button class="control-btn repeat"><i class="fas fa-redo"></i></button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="player-container" data-index="4">
+    <div class="music-info">
+      <div class="cover-con">
+        <img src="000.jpg" class="cover album-cover" data-cover="000.jpg">
+      </div>
+      <h3 class="song-title">Dakishimeraretara</h3>
+      <p class="maker">JKT48</p>
+    </div>
+    <div class="progress-container">
+      <input type="range" class="progress-bar" min="0" max="100" value="0">
+      <div class="time-info">
+        <span class="current-time">00:00</span> / <span class="duration">00:00</span>
+      </div>
+      <audio class="audio-player" src="JKT48 - Dakishimeraretara (Jika Aku Dipelukmu).mp3"></audio>
+      <div class="controls">
+        <button class="control-btn prev"><i class="fas fa-ellipsis-v"></i></button>
+        <button class="control-btn skip-back"><i class="fas fa-backward"></i></button>
+        <button class="control-btn play-pause"><i class="fas fa-play"></i></button>
+        <button class="control-btn skip-forward"><i class="fas fa-forward"></i></button>
+        <button class="control-btn repeat"><i class="fas fa-redo"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Sidebar for links -->
+<div id="sidebar" class="sidebar">
+  <button class="close-btn">×</button>
+  <br />
+  <br />
+  <hr />
+  <h4 id="brand">Music Player</h4>
+  <a href="https://ahmadr.vercel.app/#contactme">Contact</a>
+  <a href="https://ahmadr.vercel.app">Developer</a>
+  <a href="https://www.instagram.com/01000001r?igsh=dWZ3bHlnOG85c3Bu">Instagram</a>
+  <a href="https://x.com/madr01000001?s=09">Twitter</a>
+  <a href="Feedback.html">Bugs?/Feedback</a>
+  <p id="copy">©2024 AhmadR Music Player </p>
+</div>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+</body>
+</html>
